@@ -811,6 +811,11 @@
             z-index: 1;
         }
 
+        .phone-icon {
+            background: linear-gradient(135deg, #00d4ff, #00ffaa);
+            box-shadow: 0 15px 40px rgba(0, 212, 255, 0.5);
+        }
+
         .facebook-icon {
             background: linear-gradient(135deg, #1877f2, #42a5f5);
             box-shadow: 0 15px 40px rgba(24, 119, 242, 0.5);
@@ -1307,6 +1312,15 @@
 
             <div class="contact-grid">
                 <div class="contact-card">
+                    <a href="tel:+8801XXXXXXXXX" title="Call Me">
+                        <div class="social-icon phone-icon">📱</div>
+                        <h3>Phone</h3>
+                        <p>+880 1754780796</p>
+                        <p style="font-size: 14px; margin-top: 10px;">Call or WhatsApp me anytime!</p>
+                    </a>
+                </div>
+
+                <div class="contact-card">
                     <a href="https://www.facebook.com/md.nazmul.hassan0" title="Visit Facebook" target="_blank">
                         <div class="social-icon facebook-icon">f</div>
                         <h3>Facebook</h3>
@@ -1349,18 +1363,14 @@
     <div class="scroll-top" id="scrollTop"></div>
 
     <script>
-        // Loading Screen
-        window.addEventListener('load', function() {
-            const loader = document.querySelector('.loader');
-            setTimeout(function() {
-                loader.classList.add('hidden');
-            }, 1500);
-        });
+        // Instant Loading - Remove loader immediately
+        const loader = document.querySelector('.loader');
+        loader.classList.add('hidden');
 
-        // Create Stars
+        // Create Stars (reduced for performance)
         function createStars() {
             const stars = document.getElementById('stars');
-            for (let i = 0; i < 200; i++) {
+            for (let i = 0; i < 100; i++) {
                 const star = document.createElement('div');
                 star.className = 'star';
                 star.style.left = Math.random() * 100 + '%';
