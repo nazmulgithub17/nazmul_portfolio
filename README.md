@@ -37,6 +37,8 @@ I love learning new technologies, building creative web interfaces, and developi
 
 ---
 
+## 📂 Project Structure
+
 
 ---
 
@@ -50,12 +52,19 @@ I love learning new technologies, building creative web interfaces, and developi
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live portfolio here:  
+➡️ [Nazmul Hassan Portfolio](https://nazmul-portfolio-nine.vercel.app)  
+
+---
+
 ## 📞 Contact Information
 
 - 📱 Phone / WhatsApp: **+880 1754780796**
-- 🌐 Facebook: https://www.facebook.com/md.nazmul.hassan0
-- 📸 Instagram: https://www.instagram.com/md.nazmul.hassan0
-- 🐦 Twitter (X): https://x.com/MdNazmulHassan0
+- 🌐 Facebook: [md.nazmul.hassan0](https://www.facebook.com/md.nazmul.hassan0)
+- 📸 Instagram: [md.nazmul.hassan0](https://www.instagram.com/md.nazmul.hassan0)
+- 🐦 Twitter (X): [MdNazmulHassan0](https://x.com/MdNazmulHassan0)
 
 ---
 
@@ -90,7 +99,3 @@ If you use this project, please give proper credit.
 **Nazmul Hassan**  
 Designed & Developed with passion 💙  
 © 2025 All Rights Reserved
-
-
-## 📂 Project Structure
-
